@@ -1,0 +1,6 @@
+{
+  "name": "Clinical Precision Analytics",
+  "description": "High-velocity clinical intelligence, epidemiological cohort tracking, protocol adherence, and patient telemetry for healthcare operators and clinical directors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,221 @@
+---
+name: Clinical Precision Analytics
+colors:
+  surface: '#f7f9fb'
+  surface-dim: '#d8dadc'
+  surface-bright: '#f7f9fb'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f6'
+  surface-container: '#eceef0'
+  surface-container-high: '#e6e8ea'
+  surface-container-highest: '#e0e3e5'
+  on-surface: '#191c1e'
+  on-surface-variant: '#45464d'
+  inverse-surface: '#2d3133'
+  inverse-on-surface: '#eff1f3'
+  outline: '#76777d'
+  outline-variant: '#c6c6cd'
+  surface-tint: '#565e74'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#131b2e'
+  on-primary-container: '#7c839b'
+  inverse-primary: '#bec6e0'
+  secondary: '#006a61'
+  on-secondary: '#ffffff'
+  secondary-container: '#86f2e4'
+  on-secondary-container: '#006f66'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#001d31'
+  on-tertiary-container: '#188ace'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae2fd'
+  primary-fixed-dim: '#bec6e0'
+  on-primary-fixed: '#131b2e'
+  on-primary-fixed-variant: '#3f465c'
+  secondary-fixed: '#89f5e7'
+  secondary-fixed-dim: '#6bd8cb'
+  on-secondary-fixed: '#00201d'
+  on-secondary-fixed-variant: '#005049'
+  tertiary-fixed: '#cce5ff'
+  tertiary-fixed-dim: '#93ccff'
+  on-tertiary-fixed: '#001d31'
+  on-tertiary-fixed-variant: '#004b73'
+  background: '#f7f9fb'
+  on-background: '#191c1e'
+  surface-variant: '#e0e3e5'
+typography:
+  display-lg:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  display-lg-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  data-metric:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  data-table:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.25rem
+  gutter-lg: 1.5rem
+  margin: 1rem
+  margin-md: 1.5rem
+  margin-lg: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+The design system embodies rigorous clinical precision, deep institutional trust, and high-velocity analytical clarity. Tailored for healthcare operators, chief medical officers, epidemiologists, and clinical data engineers, the interface eliminates cognitive clutter while delivering mission-critical telemetry.
+
+The aesthetic fuses Modern Corporate SaaS architecture with high-density technical minimalism. The atmosphere is quiet, clinical, and authoritative: pristine neutral surfaces establish an uncluttered baseline, while purposeful accents in surgical teal and operational sky blue direct immediate attention to key clinical signals, data deviations, and operational bottlenecks. Decorative flair is strictly avoided in favor of information density, systematic hierarchy, and ergonomic legibility under intense operational pressure.
+
+## Colors
+The color architecture relies on a disciplined baseline:
+- **Primary Canvas & Neutral Foundation**: `#F8FAFC` serves as the canvas substrate, paired with `#FFFFFF` for pristine, elevated data surfaces. Text and core graphical structures anchor on Slate 900 (`#0F172A`) and Slate 800 (`#1E293B`) for absolute legibility.
+- **Clinical Signifiers**: Primary brand actions and stabilized states leverage Clinical Teal (`#0D9488`), communicating diagnostic confidence and calm. Highlighting, focus rings, and primary interactive links rely on Sky Blue (`#0284C7`), while Light Blue (`#38BDF8`) provides secondary visual reinforcement.
+- **Structural Lines**: Borders and divisional lines deploy Slate 200 (`#E2E8F0`), creating a crisp, lightweight spatial frame without visual weight.
+- **Data Visualization Palette**: Analytical visualizations must use high-contrast, functionally distinct color sequences:
+  - Critical / Adverse Variance: `#E11D48` (Rose 600)
+  - Warning / Trend Incline: `#D97706` (Amber 600)
+  - Target Met / Healthy Cohort: `#0D9488` (Teal 600)
+  - Baseline Cohort / Projection: `#0284C7` (Sky 600)
+  - Secondary Comparison / Prior Period: `#64748B` (Slate 500)
+
+## Typography
+Inter delivers functional clarity and neutral, systematic presentation across diverse viewport densities. 
+
+All quantitative clinical metrics, counters, currency amounts, percentages, and tabular records must apply OpenType tabular figures (`font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1`). This ensures precise vertical alignment across dynamic data sets.
+
+Headlines employ tighter negative tracking for density and optical cohesion, while smaller labels (`label-sm`) use uppercase transforms paired with subtle positive tracking (`+0.04em`) to establish crisp section boundaries.
+
+## Layout & Spacing
+The layout follows a fluid-grid structure within an enterprise 12-column foundation, expanding to a maximum dashboard container width of 1600px with centered alignment on ultra-wide displays.
+
+- **Breakpoints**:
+  - `Desktop (>= 1280px)`: 12-column grid, `margin-lg` (2rem), `gutter-lg` (1.5rem). Multi-column dashboard widgets (3, 4, or 6 columns).
+  - `Tablet (768px - 1279px)`: 8-column grid, `margin-md` (1.5rem), `gutter-md` (1.25rem). Cards collapse to paired 4-column spans.
+  - `Mobile (< 768px)`: 4-column grid, `margin` (1rem), `gutter` (1rem). High-priority metrics convert to single-column stacking; heavy clinical matrices swap to compact horizontal-scroll or list-card views.
+
+The vertical rhythm uses an 8px base grid, supported by a 4px half-step for micro-elements like table cell margins, badges, and inline status icons. Padding within analytics cards remains tightly calibrated (`space-lg` outer, `space-md` inner) to prioritize visual data over empty space.
+
+## Elevation & Depth
+Visual hierarchy relies on structural borders and tonal layering rather than heavy ambient shadows. This approach preserves data readability and prevents the murky edge bleeding common in dense data interfaces.
+
+- **Surface 0 (Background)**: `#F8FAFC`. Base canvas behind cards and utility rails.
+- **Surface 1 (Base Cards & Sidebars)**: `#FFFFFF` encased in a 1px solid `#E2E8F0` hairline border. Elevation is augmented with an ultra-subtle, non-diffused structural shadow: `0 1px 2px 0 rgba(15, 23, 42, 0.04)`.
+- **Surface 2 (Popovers, Filter Menus, Dropdowns)**: `#FFFFFF` encased in a 1px solid `#CBD5E1` border, casting an ambient shadow: `0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.04)`.
+- **Surface 3 (Modal Dialogs, Critical Confirmations)**: `#FFFFFF` with `0 20px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.06)`, framed by a semi-opaque Slate 900 backdrop (`rgba(15, 23, 42, 0.45)`).
+
+Inner metric tiles and chart canvases within cards sit flush or recessed via 1px `#F1F5F9` boundaries without drop shadows.
+
+## Shapes
+The shape language uses subtle corner rounding (`roundedness: 1`) to preserve an organized, clinical appearance. 
+
+- Base controls, badges, and inputs utilize `0.25rem` (4px) radii.
+- Standard analytics cards and content panels use `0.5rem` (8px).
+- Modal containers and overlay drawers max out at `0.75rem` (12px).
+- Pill shapes are strictly limited to micro status indicators and analytical cohort chips (e.g., triage status tags) to cleanly distinguish interactive filters from categorical badges.
+
+## Components
+
+### Buttons
+- **Primary**: Solid Slate 900 (`#0F172A`) with White (`#FFFFFF`) text. Hover: `#1E293B`. Active: `#020617`. Focus: 2px offset with `#0284C7`.
+- **Clinical Accent**: Solid Teal 600 (`#0D9488`) with White (`#FFFFFF`) text. Used exclusively for core domain actions (e.g., "Run Cohort Analysis", "Approve Protocol").
+- **Secondary / Ghost**: `#FFFFFF` background, 1px `#E2E8F0` border, `#1E293B` text. Hover: `#F8FAFC` background with border `#CBD5E1`.
+- **Destructive**: Hairline `#FECDD3` border, White background, `#E11D48` text. Hover: `#FFF1F2`.
+
+### Cards & Metric Tiles
+- **Analytics Card**: Pure `#FFFFFF` surface, 1px `#E2E8F0` border, `rounded-lg` (8px), padding `space-lg`. Card headers feature `headline-sm` titles paired with trailing contextual filters or tertiary overflow triggers.
+- **KPI Stat Cards**: Top or left indicator bar using a 2px stroke in the metric's status color. Number display styled with `data-metric`, accompanied by sub-labels with trend deltas (`+2.4% vs last cycle`) using matching semantic color tokens.
+
+### Data Tables
+- Table headers use `label-sm` in `#64748B`, uppercase, anchored to a bottom border in `#E2E8F0`.
+- Rows feature alternating white and soft neutral (`#F8FAFC`) on hover. Height is fixed to a compact 40px or standard 48px. Cells apply `data-table` with tabular numbers aligned strictly to the right for numeric figures, and left for categorical identifiers.
+
+### Form Inputs & Filters
+- **Text Inputs**: Height 36px, `#FFFFFF` background, 1px `#E2E8F0` border, `#0F172A` text, 4px corner radius. Focused state applies a 1px border `#0284C7` and a 2px outline in `rgba(2, 132, 199, 0.15)`.
+- **Checkboxes & Radios**: 16x16px frame, 1px `#CBD5E1` border. Checked state uses solid `#0D9488` with crisp white SVG checkmarks.
+
+### Status Chips & Badges
+- **Status Indicators**: Compact height (20px), `space-xs` horizontal padding, border radius 9999px. 
+  - *Stable*: `#CCFBF1` background, `#0F766E` text, 6px internal `#0D9488` dot.
+  - *Observation*: `#FEF3C7` background, `#B45309` text.
+  - *Critical*: `#FFE4E6` background, `#BE123C` text.
